@@ -26,7 +26,7 @@ import org.apache.guacamole.GuacamoleException;
  * associated with those users. Access to such data is limited according to the
  * AuthenticationProvider implementation.
  */
-public interface AuthenticationProvider {
+public interface    AuthenticationProvider {
 
     /**
      * Returns the identifier which uniquely and consistently identifies this

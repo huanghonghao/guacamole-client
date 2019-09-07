@@ -10,20 +10,20 @@
         "org.apache.guacamole.auth.mysql.MySQLSharedAuthenticationProvider"
     ],
 
-    "css" : [
-        "styles/jdbc.css"
-    ],
+//    "css" : [
+//        "styles/jdbc.css"
+//    ],
+//
+//    "html" : [
+//        "html/shared-connection.html"
+//    ],
 
-    "html" : [
-        "html/shared-connection.html"
-    ],
-
-    "translations" : [
-        "translations/en.json",
-        "translations/es.json",
-        "translations/fr.json",
-        "translations/ru.json"
-    ]
+//    "translations" : [
+//        "translations/en.json",
+//        "translations/es.json",
+//        "translations/fr.json",
+//        "translations/ru.json"
+//    ]
 
 }
 

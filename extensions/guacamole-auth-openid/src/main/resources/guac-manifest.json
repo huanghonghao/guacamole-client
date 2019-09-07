@@ -14,11 +14,11 @@
     ],
 
     "js" : [
-        "openid.min.js"
+        "openid.js"
     ],
 
     "css" : [
-        "openid.min.css"
+        "openid.css"
     ],
 
     "resources" : {

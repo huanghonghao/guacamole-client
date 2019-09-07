@@ -513,11 +513,15 @@ public class ExtensionModule extends ServletModule {
 
         // Init JavaScript resources with base guacamole.min.js
         Collection<Resource> javaScriptResources = new ArrayList<Resource>();
-        javaScriptResources.add(new WebApplicationResource(getServletContext(), "/guacamole.min.js"));
+        // TODO 打包非压缩的js
+        javaScriptResources.add(new WebApplicationResource(getServletContext(), "/guacamole.js"));
+//        javaScriptResources.add(new WebApplicationResource(getServletContext(), "/guacamole.min.js"));
 
         // Init CSS resources with base guacamole.min.css
         Collection<Resource> cssResources = new ArrayList<Resource>();
-        cssResources.add(new WebApplicationResource(getServletContext(), "/guacamole.min.css"));
+        // TODO 打包非压缩css
+        cssResources.add(new WebApplicationResource(getServletContext(), "/guacamole.css"));
+//        cssResources.add(new WebApplicationResource(getServletContext(), "/guacamole.min.css"));
 
         // Load all extensions
         final Set<String> toleratedAuthProviders = getToleratedAuthenticationProviders();
